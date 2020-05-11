@@ -1,4 +1,4 @@
-source /etc/profile
-#!/bin/sh -l
+#source /etc/profile
+#!/bin/bash -ilex
 echo $PATH
 robot -P . tc
