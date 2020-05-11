@@ -1,5 +1,4 @@
-#source /etc/profile
-#!/bin/bash -ilex
+#!/bin/bash
 source ~/.bash_profile
 echo $PATH
 robot -P . tc
