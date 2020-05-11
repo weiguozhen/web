@@ -1,3 +1,3 @@
 source /etc/profile
-#!/bin/bash
-robot -P ./web ./web/tc
+#!/bin/sh -l
+robot -P . tc
